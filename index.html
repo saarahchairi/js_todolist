@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +7,25 @@
 
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="./public/css/app.css">
 
     <title>To do list</title>
 </head>
 <body>
+    <h1>TodoList</h1>
+
+    <div class="tache ">
+        <div class="ajout">
+            <p>Ajouter une tâche:</p>
+            <input type="text">
+            <button class="btn" type="submit">Ajouter</button>
+        </div>
+        <div class="boutons">
+            <button class="btn" type="submit">A faire</button>
+            <button class="btn" type="submit">Terminé</button>
+            <button class="btn" type="submit">Tous</button>
+        </div>
+    </div>
     
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="./node_modules/@popperjs/core/dist/umd/popper.js"></script>
