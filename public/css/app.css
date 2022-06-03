@@ -11120,7 +11120,7 @@ textarea.form-control-lg {
 }
 body {
   margin: 0 40px 0 40px;
-  background-color: #E4E4E4;
+  background-color: rgb(228, 228, 228);
 }
 body h1, body .h1 {
   margin: 20px 0 20px;
@@ -11156,9 +11156,8 @@ body .tache .nouvelleTache {
   background-color: #E4E4E4;
   padding: 10px;
   color: #fff;
-}
-body .tache .nouvelleTache:active {
-  background-color: #28A745;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 body .tache .poubelle {
   padding: 0 30px;
